@@ -7,7 +7,7 @@ ENV RANETO_INSTALL_DIR /srv/raneto
 
 # Get Raneto from sources
 RUN cd /tmp \
-    && curl -SLO "https://github.com/gilbitron/Raneto/archive/$RANETO_VERSION.tar.gz" \
+    && curl -SLO "https://codeload.github.com/gilbitron/Raneto/tar.gz/$RANETO_VERSION" \
     && mkdir -p $RANETO_INSTALL_DIR \
     && tar -xzf "$RANETO_VERSION.tar.gz" -C $RANETO_INSTALL_DIR --strip-components=1 \
     && rm "$RANETO_VERSION.tar.gz"

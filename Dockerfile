@@ -2,7 +2,7 @@ FROM node:6.1.0-slim
 MAINTAINER Paolo Pustorino <paolo.pustorino@sparkfabrik.com>
 
 # Set variables
-ENV RANETO_VERSION 0.9.0
+ENV RANETO_VERSION 0.16.0
 ENV RANETO_INSTALL_DIR /srv/raneto
 
 # Get Raneto from sources

@@ -1,4 +1,4 @@
-FROM node:6.1.0-slim
+FROM node:10.15.0-slim
 MAINTAINER Paolo Pustorino <paolo.pustorino@sparkfabrik.com>
 
 # Set variables
